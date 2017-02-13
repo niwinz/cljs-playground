@@ -39,7 +39,7 @@ Watching paths: /home/niwi/tmp/cljs-playground/src, /home/niwi/tmp/cljs-playgrou
 And raise unexpected exception when resulting script is executed:
 
 ```bash
-[3/5.3.1]niwi@dom:~/tmp/cljs-playground> node out/result.js
+$ node out/result.js
 fs.js:640
   return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
                  ^
